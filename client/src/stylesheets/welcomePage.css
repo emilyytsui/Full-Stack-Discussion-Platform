@@ -1,0 +1,75 @@
+/* Welcome Page  */
+.welcomePage {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Phreddit Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+
+#logoImage {
+  width: 50px;
+  height: auto;
+  display: block;
+}
+
+#logoText {
+  color: #ff4500;
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 1;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.welcomePage h2 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Welcome Page Buttons */
+.welcomePageButtons {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.registerButton {
+  background: black;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 30px;
+}
+
+.loginButton {
+  background-color: rgb(178, 178, 178);
+  border: none;
+  padding: 14px;
+  border-radius: 30px;
+}
+
+.guestButton {
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 14px;
+  border-radius: 30px;
+}
+
+.registerButton:hover,
+.loginButton:hover,
+.guestButton:hover {
+  background-color: #ff4500;
+  cursor: pointer;
+}

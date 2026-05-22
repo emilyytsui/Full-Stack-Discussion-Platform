@@ -1,0 +1,83 @@
+/* Posts */
+.postCard {
+  display: block;
+  padding: 12px 12px;
+  border-radius: 10px;
+}
+
+.postCard:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.postTop {
+  color: #5c6c74;
+  font-size: 12px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.postTop span:not(:last-child)::after {
+  content: "•";
+  color: #5c6c74;
+  margin: 5px;
+}
+
+.communityName {
+  color: #333d42;
+  font-weight: 600;
+}
+
+.postTitle {
+  color: #333d42;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.linkFlair {
+  display: inline-block;
+  color: #000;
+  font-size: 12px;
+  background-color: rgb(183, 183, 183);
+  border-radius: 50px;
+  padding: 0px 6px;
+  margin: 4px 0px;
+}
+
+.postContent {
+  color: #333d42;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 18px;
+}
+
+.postStats {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.postStats span {
+  display: inline-block;
+  color: #000;
+  font-size: 12px;
+  background-color: #e5ebee;
+  border: none;
+  border-radius: 50px;
+  padding: 6px 10px;
+}
+
+.postDivider {
+  border-style: none;
+  border-bottom: 2px dotted black;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.postListCommunityDividerSection {
+  border-style: none;
+  border-bottom: 2px dashed #ff4500;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}

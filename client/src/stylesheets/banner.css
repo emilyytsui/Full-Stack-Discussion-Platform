@@ -1,0 +1,111 @@
+/* Banner */
+.banner {
+  background-color: white;
+  border-bottom: 0.8px solid black;
+  padding: 10px 20px;
+}
+
+.bannerMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Phreddit Logo */
+.applicationName {
+  color: #ff4500;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Search Bar */
+.searchBox {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+#searchBar {
+  padding: 10px 20px;
+  border-radius: 20px; /* oval shape */
+  border: 1px solid #ff4500;
+  width: 80%;
+  max-width: 520px;
+  text-align: center;
+  outline-color: lightblue;
+}
+
+#searchBar:hover {
+  background-color: whitesmoke;
+}
+
+#searchBar:focus {
+  text-align: left;
+}
+
+/* Banner Buttons */
+.bannerButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.bannerError {
+  background-color: #fff3f0;
+  border: 1px solid #ff4500;
+  color: #8a1f00;
+  margin-top: 8px;
+  padding: 8px 12px;
+}
+
+.createPostButton {
+  background-color: rgb(178, 178, 178);
+  border: none;
+  border-radius: 50px; /* oval shape */
+  padding: 10px 15px;
+}
+
+.createPostButton:hover:not(:disabled) {
+  background-color: #ff4500;
+  cursor: pointer;
+}
+
+.createPostButton.active {
+  background-color: #ff4500;
+}
+
+.createPostButton:disabled {
+  cursor: not-allowed;
+}
+
+/* User Profile Button */
+#userProfileButton {
+  background-color: rgb(178, 178, 178);
+  border: none;
+  border-radius: 50px; /* oval shape */
+  padding: 10px 15px;
+}
+
+#userProfileButton.userProfileButtonActive:hover {
+  background-color: #ff4500;
+  cursor: pointer;
+}
+
+#userProfileButton:not(.userProfileButtonActive) {
+  cursor: default;
+}
+
+/* Logout Button */
+#logoutButton {
+  background-color: rgb(178, 178, 178);
+  border: none;
+  border-radius: 50px; /* oval shape */
+  padding: 10px 15px;
+}
+
+#logoutButton:hover {
+  background-color: #ff4500;
+  cursor: pointer;
+}

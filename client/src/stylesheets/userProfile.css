@@ -1,0 +1,77 @@
+.userProfilePage {
+  padding: 20px 0 32px;
+}
+
+.profileHeader {
+  border-bottom: 1px solid black;
+  margin-bottom: 16px;
+  padding-bottom: 14px;
+}
+
+.profileMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.profileTabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0;
+}
+
+.profileTab {
+  background-color: rgb(178, 178, 178);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 15px;
+}
+
+.profileTab:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.profileTab.active {
+  background-color: whitesmoke;
+}
+
+.profileList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profileListRow {
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.profileLink {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  text-align: left;
+}
+
+.profileLink:hover {
+  color: #ff5700;
+  text-decoration: underline;
+}
+
+.dangerButton {
+  background-color: #ff5700;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  padding: 8px 12px;
+}

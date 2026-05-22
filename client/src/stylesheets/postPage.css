@@ -1,0 +1,120 @@
+/* Post Page View */
+.postPageHeader {
+  padding: 10px 0px;
+  margin-top: 10px;
+}
+
+.postHeaderTop {
+  color: #5c6c74;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.postHeaderTop span:not(:last-child)::after {
+  content: "•";
+  color: #5c6c74;
+  margin: 5px;
+}
+
+.postPostedBy {
+  color: #333d42;
+  margin: 6px 0px 10px;
+}
+
+.postPageTitle {
+  color: #181c1f;
+  font-size: 1.4rem;
+  font-weight: 750;
+  margin: 8px 0px;
+}
+
+.postBodyContent {
+  margin-top: 10px;
+  color: #333d42;
+  white-space: pre-wrap;
+  margin-bottom: 20px;
+}
+
+.postHeaderStats {
+  display: flex;
+  gap: 12px;
+  margin: 12px 0px;
+}
+
+.postHeaderStats span {
+  display: inline-block;
+  color: #000;
+  font-size: 12px;
+  background-color: #e5ebee;
+  border: none;
+  border-radius: 50px;
+  padding: 6px 10px;
+}
+
+.actionButton {
+  background-color: rgb(178, 178, 178);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 15px;
+}
+
+.actionButton:hover:not(:disabled):not(.activeVoteButton) {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.actionButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.activeVoteButton {
+  background-color: #ff4500;
+  color: white;
+}
+
+.activeVoteButton:hover:not(:disabled) {
+  background-color: #ff4500;
+  color: white;
+  cursor: pointer;
+}
+
+.commentList {
+  padding-bottom: 30px;
+}
+
+.commentCard {
+  padding: 10px 12px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  border-left: 1px solid rgb(51, 61, 66, 0.3);
+}
+
+.commentCard:hover {
+  background-color: whitesmoke;
+}
+
+.commentMeta {
+  color: #5c6c74;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.commentMeta span:not(:last-child)::after {
+  content: "•";
+  color: #5c6c74;
+  margin: 5px;
+}
+
+.commentContent {
+  color: #333d42;
+  white-space: pre-wrap;
+}
+
+.replyButton {
+  margin-top: 0;
+}

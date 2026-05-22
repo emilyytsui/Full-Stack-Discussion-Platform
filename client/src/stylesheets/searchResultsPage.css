@@ -1,0 +1,31 @@
+/* Search Results Page View */
+.emptyPostList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0px 16px;
+  padding: 16px 0px;
+}
+
+.emptyPostListImage {
+  margin: 0px 16px 16px 0px;
+  width: 128px;
+  height: 128px;
+}
+
+.emptyPostListText1 {
+  color: #181c1f;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin: 0px 0px 15px;
+}
+
+.emptyPostListText2 {
+  color: #5c6c74;
+  font-size: 1rem;
+  font-weight: 350;
+  line-height: 1.25rem;
+  margin: 0px 0px 8px;
+}
